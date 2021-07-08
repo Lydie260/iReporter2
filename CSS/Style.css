@@ -3,20 +3,20 @@
 }
 .form-container{
     width: 400px;
-    border: 1px solid rgb(87, 85, 85);
     padding-bottom: 20px;
     margin: auto;
+    background-color: hsl(218, 73%, 96%);
+    border-radius: 3px;
 }
 .heading{
 text-align: center;
-color: hsl(0, 0%, 52%);
-font-style: italic;
+color: hsl(0, 2%, 25%);
+padding-top: 25px;
 
 }
 .input-fields{
     width: 100%;
     padding: 10px;
-    background-color: hsl(240, 5%, 92%);
     border: 1px rgb(87, 86, 86);
 }
 .single-field{
@@ -35,7 +35,7 @@ color: hsl(240, 1%, 27%);
     margin-top: 10px;
     border: 1px solid;
     border-radius: 3px;
-    padding: 10px 20px;
+    padding: 20px 20px;
 
 
 }
