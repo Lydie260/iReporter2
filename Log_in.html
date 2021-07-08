@@ -1,38 +1,47 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<body style="text-align: center;">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Style.css">
 
+  <title>iReporter</title>
+</head>
 
-  <form class="container">
-    <h1> Log In</h1>
-    <h2 style="font-size: 20px;">User Name</h2>
-    <input type="text" placeholder=" User Name" name="User Name" required
-      style="border-radius: 10px; padding: 10px; width: 400px; height: 20px; border: 1px solid; font-size: 20px; "></p><br>
-    
-    <input type="password" placeholder=" password  " name="psw" required
-      style="border-radius: 10px; padding: 10px; width: 400px; height: 20px; border: 1px solid; font-size: 20px; "></p><br>
+<body>
+  <div class="form-container">
+    <h2 class="heading">Login</h2>
 
-      
+    <div class="input-fields">
+      <form>
+        
+    <div id="email" class="single-field">
+      <label>Email</label>
+      <input name="Email" class="form-control" />
 
+    </div>
+    <div id="password" class="single-field">
+      <label>Password</label>
+      <input type="password" name="password" class="form-control" />
 
-    
-    <input type="checkbox" id="a" style="width: 50px;" />
+    </div>
+    <div id="btn" class="single">
+      <label></label>
+      <input class="auth-btn"
+         type="submit" class="form-control" value="Login" />
 
-    <label for="a"> I agree to the terms and conditions.</label><br><br>
-
-
-
-
-
-
-
-
-
-    <input type="submit" value="sign up" class="signupbtn"
-      style=" width: 420px; height: 50px; background: rgb(91, 161, 241); color: #fff; font-size: medium; border-radius:10px; padding:10px; border: 1px solid; "><br>
-<p> Have Already an Account?  Login Here</p>
-
+    </div>
+    <div class="text">
+      <span>
+        Not Yet have an Account? Sign up <a href="./sign_up.html">Here</a> 
+      </span>
+    </div>
   </form>
+  </div>
+</div>
+</div>
 </body>
 
 </html>
