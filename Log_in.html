@@ -5,43 +5,66 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link rel="stylesheet" href="./CSS/Style.css">
+  <link rel="stylesheet" href="./CSS/topnav.css">
+
 
   <title>iReporter</title>
+  <style>
+    #mail {
+      display: block;
+    }
+  </style>
 </head>
 
 <body>
+  <div class="topnav">
+    <a class="active" href="sign_up.html">iReporter</a>
+    <a href="Dashbord.html"><i class=""></i>Dashboard</a>
+    <a href="Red.html"><i class=""></i>Red-flag</a>
+    <a href="inter.html"><i class=""></i>intervention </a>
+    <div class="search-container">
+      <form>
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
   <div class="form-container">
     <h2 class="heading">Login</h2>
 
     <div class="input-fields">
-      <form>
-        
-    <div id="email" class="single-field">
-      <label>Email</label>
-      <input name="Email" class="form-control" />
+      <form name="Log" action="form.html">
 
-    </div>
-    <div id="password" class="single-field">
-      <label>Password</label>
-      <input type="password" name="password" class="form-control" />
+        <div id="mail" class="single-field">
+          <label>Email</label>
+          <input name="Email" class="form-control" type="email" required />
 
-    </div>
-    <div id="btn" class="single">
-      <label></label>
-      <input class="auth-btn"
-         type="submit" class="form-control" value="Login" />
+        </div>
+        <div id="password" class="single-field">
+          <label>Password</label>
+          <input type="password" name="password" class="form-control" required />
 
+        </div>
+        <div id="btn" class="single">
+          <input class="auth-btn" type="submit" class="form-control" value="Login" />
+
+        </div>
+      </form>
+
+      <div class="text">
+        <span>
+          Not Yet have an Account? Sign up <a href="./sign_up.html">Here</a>
+        </span>
+      </div>
     </div>
-    <div class="text">
-      <span>
-        Not Yet have an Account? Sign up <a href="./sign_up.html">Here</a> 
-      </span>
-    </div>
-  </form>
   </div>
-</div>
-</div>
+  </div>
 </body>
+<!-- <script src="./CSS/script.js"> -->
+</script>
 
 </html>

@@ -1,15 +1,34 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./CSS/Style.css">
-  <link rel="stylesheet" href="./CSS/topnav.css">
+  <link rel="stylesheet" href="./sta.css">
+  <link rel="stylesheet" href="./ta.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -17,25 +36,11 @@
 </head>
 
 <body>
-  <div class="topnav">
-    <a class="active" href="sign_up.html">iReporter</a>
-    <a href="Dashbord.html"><i class=""></i>Dashboard</a>
-    <a href="Red.html"><i class=""></i>Red-flag</a>
-    <a href="inter.html"><i class=""></i>intervention </a>
-    <div class="search-container">
-      <form>
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-    </div>
-  </div>
-
-
-  <div class="form-container">
+<div class="form-container">
     <h2 class="heading">Sign Up</h2>
 
     <div class="input-fields">
-      <form name="form">
+      <form action="don.php" method="POST">
         <div id="K" class="single-field">
           <label>Your Name</label>
           <input name="YourName" class="form-control" type="text" required />
@@ -53,15 +58,11 @@
         </div>
         <div id="k3" class="single-field">
           <label>Password</label>
-          <input type="password" name="password" class="form-control" required />
+          <input type="Password" name="Password" class="form-control" required />
 
         </div>
 
-        <div id="k3" class="single-field">
-          <label>Confirm Password</label>
-          <input type="password" name="Confirmpassword" class="form-control" required />
-
-        </div>
+        
         <div class="text">
 
           <input type="checkbox" id="a" style="width: 50px;" />
@@ -75,18 +76,14 @@
         </div>
         <div class="text">
           <span>
-            Already Have an Account? Login <a href="./Log_in.html">Here</a>
+            Already Have an Account? Login <a href="./app.php">Here</a>
           </span>
         </div>
       </form>
     </div>
   </div>
 
+    
 </body>
 
 </html>
-
-
-
-
-
